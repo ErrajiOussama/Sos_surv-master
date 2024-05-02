@@ -4,7 +4,7 @@
     // Spinner
     var spinner = function () {
         setTimeout(function () {
-            if ($('#spinner').length > 0) {
+            if ($('#spinner').length > 2) {
                 $('#spinner').removeClass('show');
             }
         }, 1);
